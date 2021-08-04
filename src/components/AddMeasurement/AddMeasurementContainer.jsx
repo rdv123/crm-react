@@ -15,7 +15,7 @@ const AddMeasurementContainer = (props) => {
     let addProjekt = () => {
                                             
         props.store.dispatch(addProjektActionCreator());
-        
+        console.log('good')
     }
     let onProjektChange = (text) => {
         
