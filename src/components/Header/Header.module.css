@@ -1,0 +1,28 @@
+.header1 {
+  /* display: grid; */
+  grid-area: h;
+  background-color: red;
+}
+.fon {
+  display: grid;
+  grid-template-columns: 20% 30% 20% 30%;
+}
+.header1 img {
+  margin: 5px;
+  width: 70px;
+  border-radius: 10px;
+}
+.header1 span {
+  margin: 100px;
+  margin-bottom: 20px;
+}
+.month {
+  margin-top: 20px;
+}
+.employee {
+  margin-top: 20px;
+}
+.find {
+  margin-top: 20px;
+  margin-left: 40px;
+}

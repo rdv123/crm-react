@@ -1,0 +1,30 @@
+.blok1 {
+  /* grid-area: c; */
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  margin: 10px;
+  margin-left: 40px;
+  color: white;
+  /* background-color: coral; */
+  grid-gap: 10px;
+  text-align: center;
+
+  grid-template-rows: 40px;
+}
+.planned {
+  background-color: yellow;
+  border-radius: 20px;
+  color: black;
+  padding-top: 10px;
+  /* text-align: center; */
+}
+.work {
+  background-color: brown;
+  border-radius: 20px;
+  padding-top: 10px;
+}
+.contract {
+  background-color: green;
+  border-radius: 20px;
+  padding-top: 10px;
+}
