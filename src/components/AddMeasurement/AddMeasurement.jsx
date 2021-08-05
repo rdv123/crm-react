@@ -11,15 +11,15 @@ let inputName = React.createRef();
 
 const AddMeasurement = (props) => {
     console.log(props,'props!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!')
-    let onAddProjekt = () => {
+    let addProjekt = () => {
         // props.addProjekt ();
-        //props.dispatch(addProjektActionCreator());
+        props.dispatch(addProjektActionCreator());
         
     }
     let onProjektChange = () => {
         let text = newInfoElement.current.value
-        props.updateNewProjektText(text)
-        //props.dispatch(action)
+        let action = props.updateNewProjektTextActionCreator(text)
+        props.dispatch(action)
     }
 
     let onTelChange=()=>{
@@ -107,7 +107,7 @@ const AddMeasurement = (props) => {
                              />
             </div>
             <div>
-                <button onClick ={onAddProjekt}>Add info</button>
+                <button onClick ={addProjekt}>Add info</button>
             </div>
         </div>
     )
