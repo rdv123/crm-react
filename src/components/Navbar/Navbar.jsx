@@ -10,32 +10,32 @@ const Navbar = () =>{
       <nav className = {s.nav1}>
         <div className = {s.item}>
           <NavLink to = "/profile" activeClassName = {s.activeLink}>
-            Profile
+            Профиль
           </NavLink>
         </div>
         <div className = {s.item}>
           <NavLink to = "/addMeasurement" activeClassName = {s.activeLink}>
-            Add measurement
+            Добавить замер
           </NavLink>
         </div>
         <div className = {`${s.item} ${s.active}`}>
           <NavLink to = "/reMeasurement" activeClassName = {s.activeLink}>
-            Re-measurement
+            Повторный замер
           </NavLink>
         </div>
         <div className = {s.item}>
           <NavLink to = "/designers" activeClassName = {s.activeLink}>
-            Designers
+            Дизайнеры
           </NavLink>
         </div>
         <div className = {s.item}>
          <NavLink to = "/masters" activeClassName = {s.activeLink}>
-            Masters
+            Мастера
           </NavLink>
         </div>
         <div className = {s.item}>
           <NavLink to = "/archive" activeClassName = {s.activeLink}>
-            Archive
+            Архив
           </NavLink>
         </div>
       </nav>
